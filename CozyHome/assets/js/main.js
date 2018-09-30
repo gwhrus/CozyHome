@@ -4,7 +4,19 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
+(function ($) {
+
+    // header background 
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll >= $("#mainImage")[0].offsetHeight) {
+            $("#header").addClass("darkHeader");
+        }
+        else {
+            $("#header").removeClass("darkHeader");
+        }
+    }); 
+
 
 	var	$window = $(window),
 		$body = $('body');

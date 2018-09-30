@@ -7,6 +7,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+body.landing #header.darkHeader {
+    background-color: cadetblue;
+}
+
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2477,7 +2484,6 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2497,7 +2503,6 @@ input, select, textarea {
 		}*/
 
 		.image img {
-			border-radius: 4px;
 			display: block;
 		}
 
@@ -3411,7 +3416,7 @@ input, select, textarea {
 	body.landing #header {
 		background: transparent;
 		box-shadow: none;
-		position: absolute;
+		position: fixed;
 	}
 
 /* Banner */
